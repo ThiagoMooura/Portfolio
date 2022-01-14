@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Moura</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://kit.fontawesome.com/fa553613b7.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+<body onresize="screeen()">
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a>Thiago <i class="fas fa-code"></i></a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a class="menu-link" href="#inicio">Início</a></li>
+                    <li><a class="menu-link" href="#sobre">Sobre</a></li>
+                    <li><a class="menu-link" href="#habilidades">Habilidades</a></li>
+                    <li><a class="menu-link" href="#portfolio">Projetos</a></li>
+                    <li><a class="menu-link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div onclick="navbar()" class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <section id="inicio" class="inicio">
+        <div class="overlay">
+            <div class="inicio-wrap">
+                <h3 data-aos-duration="500" data-aos="flip-left" data-aos-once="true">Olá, eu sou</h3>
+                <h1 data-aos-duration="700" data-aos="flip-left" data-aos-once="true">Thiago <span>Moura</span></h1>
+                <h3 data-aos-duration="900" data-aos="flip-left" data-aos-once="true">Front end developer</h3>
+                <p data-aos-duration="1100" data-aos="flip-left" data-aos-once="true">Desenvolvimento web, programação de sites responsivos, landing pages, montagem de email marketing e web apps. Utilizando HTML5, CSS3, Javascript, SASS e React.</p>
+                <ul data-aos-duration="1300" data-aos="flip-left" data-aos-once="true">
+                    <li><a class="icons" href="mailto:thiagosmoura10@gmail.com"><i class="far fa-envelope"></i> email</a></li>
+                    <li><a class="icons" target="blank_" href="https://api.whatsapp.com/send?phone=5519996736642"><i class="fab fa-whatsapp"></i> whatsapp</a></li>
+                    <li><a class="icons alt" target="blank_" href="https://github.com/ThiagoMooura"><i class="fab fa-github"></i> github</a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="assets/images/wave7.svg" alt="">
+    </section>
+    <section id="sobre" class="sobre">
+        <h1>sobre</h1>
+        <div data-aos="fade-up" data-aos-once="true" class="sobre-wrapper">
+            <div class="avatar">
+                <img src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'/>
+                <div class="html"><img src="assets/images/carousel/html.svg" alt=""></div>
+                <div class="css"><img src="assets/images/carousel/css.svg" alt=""></div>
+                <div class="js"><img src="assets/images/carousel/js.svg" alt=""></div>
+                <div class="windows"><img class="coffee" src="assets/images/carousel/react.svg" alt=""></div>
+            </div>
+            <div class="sobre-content">
+                <p>
+                    Meu nome é Thiago, tenho 20 anos, moro em Hortolândia, 
+                    atualmente estou no 7º semestre de engenharia da computação no 
+                    campus UNASP-HT. Faço sites, landing pages, web apps e email marketing, 
+                    tudo com responsividade e SEO. Faço versionamento de codigo com git e 
+                    github, React é meu framework preferido =)
+                </p>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFD948" fill-opacity="1" d="M0,256L1440,160L1440,320L0,320Z"></path></svg>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <h1>Habilidades</h1>
+
+        <div class="habilidades-wrapper">
+            
+            <div data-aos="fade-right" data-aos-once="true" class="habilidade">
+                <img src="assets/images/carousel/html.svg" alt="HTML">
+                <div class="porcentagem">
+                    <h3>95%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-once="true" class="habilidade">
+                <img src="assets/images/carousel/css.svg" alt="CSS">
+                <div class="porcentagem">
+                    <h3>95%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true" class="habilidade">
+                <img class="java" src="assets/images/carousel/js.svg" alt="Javascript">
+                <div class="porcentagem alt">
+                    <h3>75%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true" class="habilidade alt2">
+                <img class="coffee" src="assets/images/carousel/react.svg" alt="React">
+                <div class="porcentagem alt4">
+                    <h3>70%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-once="true" class="habilidade alt2">
+                <img class="sass" src="assets/images/carousel/sass.svg" alt="SASS">
+                <div class="porcentagem alt3">
+                    <h3>85%</h3>
+                </div>
+            </div>
+            
+            <div data-aos="fade-left" data-aos-once="true" class="habilidade alt2">
+                <img src="assets/images/carousel/github.svg" alt="Github"/>
+                <div class="porcentagem alt2">
+                    <h3>70%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true" class="habilidade alt2">
+                <img src="assets/images/carousel/git.svg" alt="git"/>
+                <div class="porcentagem alt2">
+                    <h3>70%</h3>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true" class="habilidade alt2">
+                <img src="assets/images/carousel/english.svg" alt="ingles">
+                <div class="porcentagem alt2">
+                    <h3>70%</h3>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <div class="portfolioo">
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="card-swipper html"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper css"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper js"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper react"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper sass"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper eua"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper git"></div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card-swipper github"></div>
+                </div>
+
+            </div>
+
+          </div>
+    </div>
+
+    <section id="portfolio" class="portfolio">
+        <h1>Projetos</h1>
+        <div class="portfolio-wrapper">
+
+            <div data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt5()">
+                        <div class="click5">Passe o mouse</div>
+                        <img class="prt5-img" src="assets/images/portfolio/bikraft.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>Bikcraft</span>
+                    <p>Site: 
+                        <i title="React" class="fab fa-react"></i>
+                    </p>                 
+                </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="blank_" href="https://bikcrafti.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+
+            <div  data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt2()">
+                        <div class="click2">Passe o mouse</div>
+                        <img class="prt2-img" src="assets/images/portfolio/planets.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>The Planets</span>
+                    <p>Site: 
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3-alt"></i>
+                        <i title="Javascript" class="fab fa-js"></i>
+                    </p>
+                </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="_blank" href="https://the-plannets.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt3()">
+                        <div class="click3">Passe o mouse</div>
+                        <img class="prt3-img" src="assets/images/portfolio/inspiro.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>Inspiro</span>
+                    <p>Site: 
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3-alt"></i>
+                        <i title="Javascript" class="fab fa-js"></i>
+                    </p>
+                </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="_blank" href="https://inspiiro.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+            
+            <div data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt4()">
+                        <div class="click4">Passe o mouse</div>
+                        <img class="prt4-img" src="assets/images/portfolio/FrontWeather.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>FrontWeather</span>
+                    <p>API: 
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3-alt"></i>
+                        <i title="Javascript" class="fab fa-js"></i>
+                    </p>                </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="_blank" href="https://frontweather.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt6()">
+                        <div class="click6">Passe o mouse</div>
+                        <img class="prt6-img" src="assets/images/portfolio/kick.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>Kick a Hermano</span>
+                    <p>Game: 
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3-alt"></i>
+                        <i title="Javascript" class="fab fa-js"></i>
+                    </p>                  
+                </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="_blank" href="https://kick-a-hermano.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+                        <!---->
+            <div data-aos="zoom-in-up" data-aos-once="true" class="card-portfolio">
+                <div class="zoom">
+                    <figure onmouseover="dlt7()">
+                        <div class="click7">Passe o mouse</div>
+                        <img class="prt7-img" src="assets/images/portfolio/deep.png" alt="">
+                    </figure>
+                </div>
+                <div class="card-portfolio-content">
+                    <span>Deep</span>
+                    <p>Landing page: 
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3-alt"></i>
+                        <i title="Javascript" class="fab fa-js"></i>
+                    </p>                  </div>
+                <div class="portfolio-button">
+                    <a class="port-btn" target="_blank" href="https://deeep.netlify.app/">visitar</a>
+                    <div class="base"></div>
+                </div>
+            </div>
+            
+        </div>
+        <svg id="wave1" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 217, 72, 1)" offset="0%"></stop><stop stop-color="rgba(255, 217, 72, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L1440,343L2880,294L4320,343L5760,49L7200,245L8640,196L10080,392L11520,196L12960,0L14400,392L15840,49L17280,343L18720,294L20160,49L21600,49L23040,392L24480,98L25920,294L27360,196L28800,196L30240,147L31680,441L33120,245L34560,196L34560,490L33120,490L31680,490L30240,490L28800,490L27360,490L25920,490L24480,490L23040,490L21600,490L20160,490L18720,490L17280,490L15840,490L14400,490L12960,490L11520,490L10080,490L8640,490L7200,490L5760,490L4320,490L2880,490L1440,490L0,490Z"></path></svg>
+    </section>
+    <section id="contato" class="contato">
+        <h1>Contato</h1>
+        <div data-aos="zoom-in" data-aos-once="true" class="contato-wrapper">
+            <img class="contato-img" src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light'/>
+
+            <div class="formulario">
+                <form action="https://formsubmit.co/thiagosmoura10@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://thiago-moura.netlify.app/thanks.html">
+                    <span><label for="email">Email</label></span><input type="hidden" name="_captcha" value="false">
+                    <input id="email" type="email" placeholder="seu@email.com" name="email"  required>
+                    <span><label for="nome">Nome</label></span><input id="nome" placeholder="seu nome" type="text" name="name" required>
+                    <span><label for="mensagem">Mensagem</label></span><textarea id="mensagem" placeholder="sua mensagem" name="message" id="" cols="30" rows="10" required></textarea>
+                    <div class="button-wrapper">
+                        <button type="submit">Enviar</button>
+                        <div class="button-hover">Enviar</div>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </section>
+    <a target="blank_" href="https://github.com/ThiagoMooura" class="github-btn"><img src="assets/images/github-btn.png" alt=""></a>
+    <a target="blank_" href="https://api.whatsapp.com/send?phone=5519996736642" class="whatsapp"><img src="assets/images/whatsapp.svg" alt=""></a>
+    <footer>
+        &copy; Thiago Moura
+    </footer>
+    
+<script src="assets/javascript/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>AOS.init();</script>
+</body>
+</html>
