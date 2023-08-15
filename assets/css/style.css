@@ -268,9 +268,9 @@ header{
     background-color: var(--color-yellow);
     background-image: url('../images/carousel/js.svg');
 }
-.card-swipper.react{
+.card-swipper.angular{
     background-color: var(--color-dark);
-    background-image: url('../images/carousel/react.svg');
+    background-image: url('../images/carousel/angular.svg');
 }
 .card-swipper.sass{
     background-color: var(--color-white);
@@ -283,11 +283,19 @@ header{
 }
 .card-swipper.git{
     background-color: var(--color-white);
-    background-image: url('../images/carousel/git.svg');
+    background-image: url('../images/carousel/python.svg');
 }
 .card-swipper.github{
     background-color: var(--color-dark);
     background-image: url('../images/carousel/github-white.svg');
+}
+.card-swipper.aws{
+    background-color: var(--color-white);
+    background-image: url('../images/carousel/aws.svg');
+}
+.card-swipper.jest{
+    background-color: var(--color-white);
+    background-image: url('../images/carousel/jest.svg');
 }
 
 /* SOBRE */

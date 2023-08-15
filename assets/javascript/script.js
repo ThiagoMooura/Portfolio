@@ -171,27 +171,75 @@ function screeen(){
 }
 
 
+// var swiper = new Swiper(".mySwiper", {
+//   spaceBetween: 0,
+//   loop: true,
+//   autoplay: {
+//     delay: 1000,
+//     disableOnInteraction:false
+//   },
+//   breakpoints: {
+//       1000: {
+//           slidesPerView: 6
+//       },
+//       800: {
+//           slidesPerView: 6
+//       },
+//       600: {
+//           slidesPerView: 4
+//       },
+//       200: {
+//         slidesPerView: 4
+//       },
+//   },
+//   speed: 400,
+//   allowTouchMove: false,
+// });
+
+// var swiper = new Swiper(".swiper", {
+//   spaceBetween: 0,
+//   loop: true,
+//   autoplay: {
+//     delay: 100, // Aumentei o valor para 3 segundos
+//     disableOnInteraction: false
+//   },
+//   breakpoints: {
+//     1024: {
+//       slidesPerView: 6
+//     },
+//     768: {
+//       slidesPerView: 4
+//     },
+//     640: {
+//       slidesPerView: 3
+//     },
+//     320: {
+//       slidesPerView: 2
+//     }
+//   },
+//   speed: 400,
+//   allowTouchMove: false,
+//   rewind: true
+// });
+
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 0,
   loop: true,
   autoplay: {
-    delay: 1000,
-    disableOnInteraction:false
+    delay: 0, // Delay in milliseconds
+    disableOnInteraction: false
   },
   breakpoints: {
-      1000: {
-          slidesPerView: 6
+        768: {
+          slidesPerView: 5
+        },
+        640: {
+          slidesPerView: 3
+        },
+        320: {
+          slidesPerView: 2
+        }
       },
-      800: {
-          slidesPerView: 6
-      },
-      600: {
-          slidesPerView: 4
-      },
-      200: {
-        slidesPerView: 4
-      },
-  },
-  speed: 400,
-  allowTouchMove: false,
+        speed: 1000,
+  rewind: true // Enable rewind functionality
 });
